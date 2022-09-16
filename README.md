@@ -1,2 +1,3 @@
-# INFO6350
-INFO6350 homework of Shaoshuai Xu
+# INFO6350 Homework
+Name: Shaoshuai Xu
+NUID: 001567790
