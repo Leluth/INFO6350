@@ -63,25 +63,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6Q-Np-cjF">
-                                <rect key="frame" x="20" y="287" width="350" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="kcO-Kf-lrC"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="329.33333333333331" width="350" height="28.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbol" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqI-wo-GOn">
-                                <rect key="frame" x="20" y="387" width="350" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="qUi-HV-fRs"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="408" width="350" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksW-sg-G6a">
-                                <rect key="frame" x="20" y="487" width="350" height="29"/>
+                                <rect key="frame" x="20" y="486" width="350" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="bjO-h1-lvz"/>
                                 </constraints>
@@ -95,7 +89,6 @@
                         <constraints>
                             <constraint firstItem="eqI-wo-GOn" firstAttribute="centerY" secondItem="lxG-k1-B5m" secondAttribute="centerY" id="03g-Qc-z3e"/>
                             <constraint firstItem="gow-yT-1DD" firstAttribute="bottom" secondItem="ksW-sg-G6a" secondAttribute="bottom" constant="274" id="1gI-bJ-8i5"/>
-                            <constraint firstItem="X6Q-Np-cjF" firstAttribute="top" secondItem="gow-yT-1DD" secondAttribute="top" constant="196" id="2b0-nV-sEO"/>
                             <constraint firstItem="X6Q-Np-cjF" firstAttribute="centerX" secondItem="lxG-k1-B5m" secondAttribute="centerX" id="4hI-tq-MtH"/>
                             <constraint firstItem="gow-yT-1DD" firstAttribute="trailing" secondItem="X6Q-Np-cjF" secondAttribute="trailing" constant="20" id="DvA-wo-96z"/>
                             <constraint firstItem="gow-yT-1DD" firstAttribute="trailing" secondItem="X6Q-Np-cjF" secondAttribute="trailing" constant="20" id="GEN-Tn-UTt"/>
